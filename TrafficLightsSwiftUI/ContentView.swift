@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var tapCount = "Next"
+    @State var selectColor:Int = 0
     
     var body: some View {
         VStack {
@@ -18,16 +18,17 @@ struct ContentView: View {
             Spacer()
             
             
-            Button(action: { tapCount }) {
-                Text("Start")
+            Button("Start", action: {})
+                
                     .font(.title)
                     .foregroundColor(.cyan)
+                  
             }
             .padding(.top, 16)
             
         }
     }
-}
+
         
         struct ContentView_Previews: PreviewProvider {
             static var previews: some View {

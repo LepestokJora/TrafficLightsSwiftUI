@@ -12,6 +12,7 @@
 		ED5A7820296F06360018994D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5A781F296F06360018994D /* Assets.xcassets */; };
 		ED5A7823296F06360018994D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5A7822296F06360018994D /* Preview Assets.xcassets */; };
 		ED5A782E296F08220018994D /* ColorCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5A782D296F08220018994D /* ColorCircleView.swift */; };
+		ED5A7830296F4D640018994D /* ButtonSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5A782F296F4D640018994D /* ButtonSwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		ED5A781F296F06360018994D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED5A7822296F06360018994D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ED5A782D296F08220018994D /* ColorCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircleView.swift; sourceTree = "<group>"; };
+		ED5A782F296F4D640018994D /* ButtonSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				ED5A781B296F06340018994D /* TrafficLightsSwiftUIApp.swift */,
 				ED5A781D296F06340018994D /* ContentView.swift */,
+				ED5A782F296F4D640018994D /* ButtonSwiftUIView.swift */,
 				ED5A782D296F08220018994D /* ColorCircleView.swift */,
 				ED5A781F296F06360018994D /* Assets.xcassets */,
 				ED5A7821296F06360018994D /* Preview Content */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED5A7830296F4D640018994D /* ButtonSwiftUIView.swift in Sources */,
 				ED5A781E296F06340018994D /* ContentView.swift in Sources */,
 				ED5A781C296F06340018994D /* TrafficLightsSwiftUIApp.swift in Sources */,
 				ED5A782E296F08220018994D /* ColorCircleView.swift in Sources */,
