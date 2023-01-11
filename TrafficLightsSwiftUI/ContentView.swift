@@ -12,14 +12,14 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            ColorCircleView()
+            ColorCircleView(color: .red)
                 .padding(.bottom, -10)
             
             Spacer()
             
             
             Button(action: { tapCount }) {
-                Text("Tap count: \(tapCount)")
+                Text("Start")
                     .font(.title)
                     .foregroundColor(.cyan)
             }
